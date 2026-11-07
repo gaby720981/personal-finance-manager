@@ -1,0 +1,39 @@
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Dependencias
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Builds y salidas
+dist/
+build/
+.next/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Base de datos local y respaldos
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de draw.io
+*.drawio.bkp
+.$*.bkp
+.$*.dtmp
